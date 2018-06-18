@@ -152,3 +152,6 @@
 
 ## Things to bring up
   + MEAN stack
+
+## Add:
+ES2015, Babel
