@@ -46,18 +46,22 @@
         + Event handling
         + Ajax requests
         + Cross-browser compatibility
-  + September 2012
-    + Bower Initial Release
   + October 2010
     + AngularJS 0.9.0 Released
       + Earliest public release in GitHub Repo
       + Includes jqLite
   + November 2010
     + Express.js Initial Release
+  + March 2011
+    + First Commits in "Traceur" repository
+  + May 2011
+    + ES6 "Proposal Freeze"
+      + Includes "Classes"
   + December 2011
     + Ember.js Initial Release
   + January 2012
     + Grunt Initial Release
+    + Initial Release of SlimJim (Later: Testacular) (Later: Karma)
   + March 2012
     + Webpack Initial Release
   + June 2012
@@ -70,18 +74,19 @@
   + July 2012
     + Batarang Chrome Extension Announced
   + September 2012
+    + Bower Initial Release
     + AngularJS 1.1.0 Released
       + Mostly bug fixes and API changes.
-  + January 2013
-    + Initial Release of Testacular (Karma) (I think)
   + February 2013
     + Initial Release of UI-Bootstrap
   + March 2013
     + Initial React Release
+      + Not a framework.  View layer only.
+      + JSX outputs a representation of the DOM as it should appear, is diffed against last version. Minimal changes made to DOM.
   + May 2013
     + Initial Router-UI Release
   + June 2013
-    + Initial Release of Protractor (I think)
+    + Initial Release of Protractor
   + July 2013
     + Gulp Initial Release
     + Electron Initial Release
@@ -101,6 +106,8 @@
     + Angular 2 announced
   + July 2014
     + John Papa and Todd Motto each publish an AngularJS Style Guide
+  + September 2014
+    + First commit of Babel
   + October 2014
     + AngularJS 1.3.0 Released
       + Multiple performance improvements
@@ -119,6 +126,7 @@
     + Initial Polymer Release
   + June 2015
     + Initial Redux Release
+    + ECMAScript 2015 Finalized
   + December 2015
     + Angular 2.0 Beta Released
       + Attempted to provide a migration path:
