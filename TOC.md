@@ -46,6 +46,8 @@
         + Event handling
         + Ajax requests
         + Cross-browser compatibility
+  + July 2010
+    + Knockout Initial Release
   + October 2010
     + AngularJS 0.9.0 Released
       + Earliest public release in GitHub Repo
@@ -161,5 +163,35 @@
 ## Things to bring up
   + MEAN stack
 
-## Add:
-ES2015, Babel
+## Things they got right
+  + (Over-)Formalized conventions to bring MVW or MVVM to web application UI development using JavaScript
+  + Up-front testing support
+  + 2-way binding was easy to conceptualize.  Helped new developers make the leap into SPAs
+  + $scope data binding clever solution to a complicated problem that led the way for modern alternatives
+  + Built in event broadcasting across "components" using `broadcast`/`emit` methods on scope
+    + Generic PubSub available with libs in other frameworks but not quite the same because it doesn't follow the component tree
+  + Best form validation I've ever used
+  + Design did not require a transpiler, pre-processor, etc to run production code
+  + Browser plugins for additional debugging
+
+## Things they didn't
+  + Only so many optimizations you can do with the digest cycle
+  + Tried to do too many things.  Learning curve very steep
+    + Templates
+    + Directives
+    + Controllers
+    + Views
+    + Services
+    + Filters
+    + ...
+  + Early on, little direction in terms of project layout / coding style.
+    + Formal style-guide hard to find and not really followed
+    + Competing style guides (John Papa / Todd Motto) confused matters more
+  + Announcement of "Angular 2"
+    + Should have named it something else
+      + "Complete rewrite" does not make adopters feel good about their choice.
+    + Should have made a beta release closer to announcing it
+      + So much time between announcement and implementation gave people a lot of time to think about their next framework
+    + Should have had a better migration path ready at announcement time
+      + Did by time Angular 2 beta was released.
+
